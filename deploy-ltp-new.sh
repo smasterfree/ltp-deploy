@@ -1,9 +1,10 @@
 #!/bin/bash
 apt-get install  htop  fping supervisor xz-utils  -y
+
+
 wget  -O /opt/ltp-20190115.tar.xz https://fat.nos-eastchina1.126.net/ltp-20190115.tar.xz
 cd /opt
 tar -xf  /opt/ltp*.tar.xz
-
 rm -rf /opt/ltp/testcases/bin/cpuhotplug*
 
 
