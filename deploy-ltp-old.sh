@@ -3,10 +3,10 @@
 apt-get install htop xz-utils  -y
 
 # get ltp binary
-rm -rf  /root/ltp-bin2.tar.gz
-wget   --no-check-certificate  -O /root/ltp-bin2.tar.gz   https://fat.nos-eastchina1.126.net/ltp-bin2.tar.gz
+rm -rf  /root/ltp-2018.tar.xz
+wget   --no-check-certificate  -O /root/ltp-2018.tar.xz   https://fat.nos-eastchina1.126.net/ltp-2018.tar.xz
 cd /root
-tar -xf  /root/ltp*.tar.gz
+tar -xf  /root/ltp-2018.tar.xz
 
 
 # nq to run background
