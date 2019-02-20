@@ -16,7 +16,7 @@ wget  -O /opt/ltp/skip_file  https://raw.githubusercontent.com/smasterfree/ltp-d
 wget  -O /bin/nq  https://raw.githubusercontent.com/smasterfree/ltp-deploy/master/nq
 chmod 777 /bin/nq
 
-nq  /opt/ltp/runltp -c 4 -i 2 -m 2,4,10240,1 -D 2,10,10240,1 -p -q -S /opt/ltp/skip_file  -l /tmp/result-log.27351 -o /tmp/result-output.27351 -C /tmp/result-failed.27351 -d /tmp  -t 30d
+nq  /opt/ltp/runltp -c 4 -i 2 -m 2,4,10240,1 -D 2,10,10240,1 -p -q -S /opt/ltp/skip_file  -l /mnt/result-log.27351 -o /mnt/result-output.27351 -C /mnt/result-failed.27351 -d /tmp  -t 30d
 
 
 
