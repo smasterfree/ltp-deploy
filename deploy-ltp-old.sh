@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get install xz-utils  -y
+apt-get install htop xz-utils  -y
 
 # get ltp binary
 rm -rf  /root/ltp-bin2.tar.gz
