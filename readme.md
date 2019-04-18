@@ -101,5 +101,27 @@ To run all tests with madvise in the name
 $ ./runltp -f syscalls -s madvise
 ```
 
+## 一键部署脚本
+
+ltp 新版本
 
 
+新版本
+
+```
+wget -O deploy-ltp-new.sh https://raw.githubusercontent.com/smasterfree/ltp-deploy/master/deploy-ltp-new.sh   &&  bash  deploy-ltp-new.sh
+```
+
+老版本
+
+```
+wget -O deploy-ltp-old.sh https://raw.githubusercontent.com/smasterfree/ltp-deploy/master/deploy-ltp-old.sh  &&  bash  deploy-ltp-old.sh
+
+```
+
+
+国内源
+```
+wget -O deploy-ltp.sh https://coding.net/u/hzx7/p/ltp-deploy/git/raw/master/deploy-ltp-new.sh &&  bash  deploy-ltp.sh
+
+```
