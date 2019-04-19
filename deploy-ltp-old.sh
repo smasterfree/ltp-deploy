@@ -1,6 +1,13 @@
 #!/bin/bash
 
-apt-get install htop xz-utils  -y
+if [  -n "$(python -mplatform | egrep -i \(debian\|ubuntu\))" ]; then
+    apt-get install htop xz-utils  -y 
+else
+    yum -y install epel-release
+    yum install htop xz-utils  -y  
+fi
+
+
 
 # get ltp binary
 rm -rf  /root/ltp-2018.tar.xz
